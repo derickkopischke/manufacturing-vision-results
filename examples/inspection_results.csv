@@ -1,0 +1,49 @@
+inspection_id,timestamp,application,station,camera,part_id,automatic_result,reviewed_result,defect_label,review_note,result_category
+DEMO-CAST-001,2026-01-15T09:00:00Z,Casting,DEMO-CAST-01,CAM-1,DEMO-CAST-PART-001,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-MACH-001,2026-01-15T09:00:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-001,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-WELD-001,2026-01-15T09:00:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-001,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-CAST-002,2026-01-15T09:01:00Z,Casting,DEMO-CAST-01,CAM-2,DEMO-CAST-PART-001,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-MACH-002,2026-01-15T09:01:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-002,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-WELD-002,2026-01-15T09:01:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-002,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-CAST-003,2026-01-15T09:02:00Z,Casting,DEMO-CAST-01,CAM-1,DEMO-CAST-PART-002,Fail,Fail,Mold alignment,Automatic decision agrees with the fictional sample review.,Correct reject
+DEMO-MACH-003,2026-01-15T09:02:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-003,Fail,Fail,Chip in feature,Automatic decision agrees with the fictional sample review.,Correct reject
+DEMO-WELD-003,2026-01-15T09:02:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-003,Fail,Fail,Surface porosity,Automatic decision agrees with the fictional sample review.,Correct reject
+DEMO-CAST-004,2026-01-15T09:03:00Z,Casting,DEMO-CAST-01,CAM-2,DEMO-CAST-PART-002,Fail,Pass,Lighting variation,Sample reviewer accepted the condition; lighting variation caused a simulated reject.,False reject
+DEMO-MACH-004,2026-01-15T09:03:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-004,Fail,Pass,Lighting variation,Sample reviewer accepted the condition; lighting variation caused a simulated reject.,False reject
+DEMO-WELD-004,2026-01-15T09:03:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-004,Fail,Pass,Lighting variation,Sample reviewer accepted the condition; lighting variation caused a simulated reject.,False reject
+DEMO-CAST-005,2026-01-15T09:04:00Z,Casting,DEMO-CAST-01,CAM-1,DEMO-CAST-PART-003,Pass,Fail,Foreign material,Sample reviewer found a condition missed by the automatic decision.,False accept
+DEMO-MACH-005,2026-01-15T09:04:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-005,Pass,Fail,Missing hole,Sample reviewer found a condition missed by the automatic decision.,False accept
+DEMO-WELD-005,2026-01-15T09:04:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-005,Pass,Fail,Missing weld,Sample reviewer found a condition missed by the automatic decision.,False accept
+DEMO-CAST-006,2026-01-15T09:05:00Z,Casting,DEMO-CAST-01,CAM-2,DEMO-CAST-PART-003,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-MACH-006,2026-01-15T09:05:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-006,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-WELD-006,2026-01-15T09:05:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-006,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-CAST-007,2026-01-15T09:06:00Z,Casting,DEMO-CAST-01,CAM-1,DEMO-CAST-PART-004,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-MACH-007,2026-01-15T09:06:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-007,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-WELD-007,2026-01-15T09:06:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-007,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-CAST-008,2026-01-15T09:07:00Z,Casting,DEMO-CAST-01,CAM-2,DEMO-CAST-PART-004,Fail,Fail,Foreign material,Automatic decision agrees with the fictional sample review.,Correct reject
+DEMO-MACH-008,2026-01-15T09:07:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-008,Fail,Fail,Missing hole,Automatic decision agrees with the fictional sample review.,Correct reject
+DEMO-WELD-008,2026-01-15T09:07:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-008,Fail,Fail,Missing weld,Automatic decision agrees with the fictional sample review.,Correct reject
+DEMO-CAST-009,2026-01-15T09:08:00Z,Casting,DEMO-CAST-01,CAM-1,DEMO-CAST-PART-005,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-MACH-009,2026-01-15T09:08:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-009,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-WELD-009,2026-01-15T09:08:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-009,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-CAST-010,2026-01-15T09:09:00Z,Casting,DEMO-CAST-01,CAM-2,DEMO-CAST-PART-005,Fail,Pass,Lighting variation,Sample reviewer accepted the condition; lighting variation caused a simulated reject.,False reject
+DEMO-MACH-010,2026-01-15T09:09:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-010,Fail,Pass,Lighting variation,Sample reviewer accepted the condition; lighting variation caused a simulated reject.,False reject
+DEMO-WELD-010,2026-01-15T09:09:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-010,Fail,Pass,Lighting variation,Sample reviewer accepted the condition; lighting variation caused a simulated reject.,False reject
+DEMO-CAST-011,2026-01-15T09:10:00Z,Casting,DEMO-CAST-01,CAM-1,DEMO-CAST-PART-006,Fail,Fail,Foreign material,Automatic decision agrees with the fictional sample review.,Correct reject
+DEMO-MACH-011,2026-01-15T09:10:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-011,Fail,Fail,Missing hole,Automatic decision agrees with the fictional sample review.,Correct reject
+DEMO-WELD-011,2026-01-15T09:10:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-011,Fail,Fail,Missing weld,Automatic decision agrees with the fictional sample review.,Correct reject
+DEMO-CAST-012,2026-01-15T09:11:00Z,Casting,DEMO-CAST-01,CAM-2,DEMO-CAST-PART-006,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-MACH-012,2026-01-15T09:11:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-012,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-WELD-012,2026-01-15T09:11:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-012,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-CAST-013,2026-01-15T09:12:00Z,Casting,DEMO-CAST-01,CAM-1,DEMO-CAST-PART-007,Fail,Fail,Retained material,Automatic decision agrees with the fictional sample review.,Correct reject
+DEMO-MACH-013,2026-01-15T09:12:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-013,Fail,Fail,Burr at bore,Automatic decision agrees with the fictional sample review.,Correct reject
+DEMO-WELD-013,2026-01-15T09:12:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-013,Fail,Fail,Weld discontinuity,Automatic decision agrees with the fictional sample review.,Correct reject
+DEMO-CAST-014,2026-01-15T09:13:00Z,Casting,DEMO-CAST-01,CAM-2,DEMO-CAST-PART-007,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-MACH-014,2026-01-15T09:13:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-014,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-WELD-014,2026-01-15T09:13:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-014,Pass,Pass,None,Automatic decision agrees with the fictional sample review.,Correct pass
+DEMO-CAST-015,2026-01-15T09:14:00Z,Casting,DEMO-CAST-01,CAM-1,DEMO-CAST-PART-008,Pass,,None,Awaiting sample review.,Unreviewed
+DEMO-MACH-015,2026-01-15T09:14:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-015,Pass,,None,Awaiting sample review.,Unreviewed
+DEMO-WELD-015,2026-01-15T09:14:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-015,Pass,,None,Awaiting sample review.,Unreviewed
+DEMO-CAST-016,2026-01-15T09:15:00Z,Casting,DEMO-CAST-01,CAM-2,DEMO-CAST-PART-008,Fail,,Retained material,Awaiting sample review.,Unreviewed
+DEMO-MACH-016,2026-01-15T09:15:00Z,Machining,DEMO-MACH-01,CAM-1,DEMO-MACH-PART-016,Fail,,Burr at bore,Awaiting sample review.,Unreviewed
+DEMO-WELD-016,2026-01-15T09:15:00Z,Weld inspection,DEMO-WELD-01,CAM-1,DEMO-WELD-PART-016,Fail,,Weld discontinuity,Awaiting sample review.,Unreviewed

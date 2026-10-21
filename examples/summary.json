@@ -1,0 +1,783 @@
+{
+  "title": "Machine Vision Results Viewer",
+  "author": "Derick Kopischke",
+  "data_kind": "Fictional inspection decisions and sample reviews; frames are schematics",
+  "window_start": "2026-01-15T09:00:00Z",
+  "window_end": "2026-01-15T09:15:00Z",
+  "summary": {
+    "decisions": 48,
+    "reviewed": 42,
+    "categories": {
+      "Correct pass": 21,
+      "Correct reject": 12,
+      "False reject": 6,
+      "False accept": 3,
+      "Unreviewed": 6
+    },
+    "automatic_fail": 21,
+    "automatic_fail_pct": 43.75,
+    "review_coverage_pct": 87.5,
+    "review_agreement_pct": 78.57,
+    "false_reject_pct_of_reviewed_good": 22.22,
+    "false_accept_pct_of_reviewed_bad": 20.0,
+    "reviewed_defects": [
+      {
+        "label": "Foreign material",
+        "count": 3
+      },
+      {
+        "label": "Missing hole",
+        "count": 3
+      },
+      {
+        "label": "Missing weld",
+        "count": 3
+      },
+      {
+        "label": "Burr at bore",
+        "count": 1
+      },
+      {
+        "label": "Chip in feature",
+        "count": 1
+      },
+      {
+        "label": "Mold alignment",
+        "count": 1
+      },
+      {
+        "label": "Retained material",
+        "count": 1
+      },
+      {
+        "label": "Surface porosity",
+        "count": 1
+      },
+      {
+        "label": "Weld discontinuity",
+        "count": 1
+      }
+    ]
+  },
+  "by_application": {
+    "Casting": {
+      "decisions": 16,
+      "reviewed": 14,
+      "categories": {
+        "Correct pass": 7,
+        "Correct reject": 4,
+        "False reject": 2,
+        "False accept": 1,
+        "Unreviewed": 2
+      },
+      "automatic_fail": 7,
+      "automatic_fail_pct": 43.75,
+      "review_coverage_pct": 87.5,
+      "review_agreement_pct": 78.57,
+      "false_reject_pct_of_reviewed_good": 22.22,
+      "false_accept_pct_of_reviewed_bad": 20.0,
+      "reviewed_defects": [
+        {
+          "label": "Foreign material",
+          "count": 3
+        },
+        {
+          "label": "Mold alignment",
+          "count": 1
+        },
+        {
+          "label": "Retained material",
+          "count": 1
+        }
+      ]
+    },
+    "Weld inspection": {
+      "decisions": 16,
+      "reviewed": 14,
+      "categories": {
+        "Correct pass": 7,
+        "Correct reject": 4,
+        "False reject": 2,
+        "False accept": 1,
+        "Unreviewed": 2
+      },
+      "automatic_fail": 7,
+      "automatic_fail_pct": 43.75,
+      "review_coverage_pct": 87.5,
+      "review_agreement_pct": 78.57,
+      "false_reject_pct_of_reviewed_good": 22.22,
+      "false_accept_pct_of_reviewed_bad": 20.0,
+      "reviewed_defects": [
+        {
+          "label": "Missing weld",
+          "count": 3
+        },
+        {
+          "label": "Surface porosity",
+          "count": 1
+        },
+        {
+          "label": "Weld discontinuity",
+          "count": 1
+        }
+      ]
+    },
+    "Machining": {
+      "decisions": 16,
+      "reviewed": 14,
+      "categories": {
+        "Correct pass": 7,
+        "Correct reject": 4,
+        "False reject": 2,
+        "False accept": 1,
+        "Unreviewed": 2
+      },
+      "automatic_fail": 7,
+      "automatic_fail_pct": 43.75,
+      "review_coverage_pct": 87.5,
+      "review_agreement_pct": 78.57,
+      "false_reject_pct_of_reviewed_good": 22.22,
+      "false_accept_pct_of_reviewed_bad": 20.0,
+      "reviewed_defects": [
+        {
+          "label": "Missing hole",
+          "count": 3
+        },
+        {
+          "label": "Burr at bore",
+          "count": 1
+        },
+        {
+          "label": "Chip in feature",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "inspection_id": "DEMO-CAST-001",
+      "timestamp": "2026-01-15T09:00:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-CAST-PART-001",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-MACH-001",
+      "timestamp": "2026-01-15T09:00:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-001",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-WELD-001",
+      "timestamp": "2026-01-15T09:00:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-001",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-CAST-002",
+      "timestamp": "2026-01-15T09:01:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-2",
+      "part_id": "DEMO-CAST-PART-001",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-MACH-002",
+      "timestamp": "2026-01-15T09:01:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-002",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-WELD-002",
+      "timestamp": "2026-01-15T09:01:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-002",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-CAST-003",
+      "timestamp": "2026-01-15T09:02:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-CAST-PART-002",
+      "automatic_result": "Fail",
+      "reviewed_result": "Fail",
+      "defect_label": "Mold alignment",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct reject"
+    },
+    {
+      "inspection_id": "DEMO-MACH-003",
+      "timestamp": "2026-01-15T09:02:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-003",
+      "automatic_result": "Fail",
+      "reviewed_result": "Fail",
+      "defect_label": "Chip in feature",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct reject"
+    },
+    {
+      "inspection_id": "DEMO-WELD-003",
+      "timestamp": "2026-01-15T09:02:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-003",
+      "automatic_result": "Fail",
+      "reviewed_result": "Fail",
+      "defect_label": "Surface porosity",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct reject"
+    },
+    {
+      "inspection_id": "DEMO-CAST-004",
+      "timestamp": "2026-01-15T09:03:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-2",
+      "part_id": "DEMO-CAST-PART-002",
+      "automatic_result": "Fail",
+      "reviewed_result": "Pass",
+      "defect_label": "Lighting variation",
+      "review_note": "Sample reviewer accepted the condition; lighting variation caused a simulated reject.",
+      "result_category": "False reject"
+    },
+    {
+      "inspection_id": "DEMO-MACH-004",
+      "timestamp": "2026-01-15T09:03:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-004",
+      "automatic_result": "Fail",
+      "reviewed_result": "Pass",
+      "defect_label": "Lighting variation",
+      "review_note": "Sample reviewer accepted the condition; lighting variation caused a simulated reject.",
+      "result_category": "False reject"
+    },
+    {
+      "inspection_id": "DEMO-WELD-004",
+      "timestamp": "2026-01-15T09:03:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-004",
+      "automatic_result": "Fail",
+      "reviewed_result": "Pass",
+      "defect_label": "Lighting variation",
+      "review_note": "Sample reviewer accepted the condition; lighting variation caused a simulated reject.",
+      "result_category": "False reject"
+    },
+    {
+      "inspection_id": "DEMO-CAST-005",
+      "timestamp": "2026-01-15T09:04:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-CAST-PART-003",
+      "automatic_result": "Pass",
+      "reviewed_result": "Fail",
+      "defect_label": "Foreign material",
+      "review_note": "Sample reviewer found a condition missed by the automatic decision.",
+      "result_category": "False accept"
+    },
+    {
+      "inspection_id": "DEMO-MACH-005",
+      "timestamp": "2026-01-15T09:04:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-005",
+      "automatic_result": "Pass",
+      "reviewed_result": "Fail",
+      "defect_label": "Missing hole",
+      "review_note": "Sample reviewer found a condition missed by the automatic decision.",
+      "result_category": "False accept"
+    },
+    {
+      "inspection_id": "DEMO-WELD-005",
+      "timestamp": "2026-01-15T09:04:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-005",
+      "automatic_result": "Pass",
+      "reviewed_result": "Fail",
+      "defect_label": "Missing weld",
+      "review_note": "Sample reviewer found a condition missed by the automatic decision.",
+      "result_category": "False accept"
+    },
+    {
+      "inspection_id": "DEMO-CAST-006",
+      "timestamp": "2026-01-15T09:05:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-2",
+      "part_id": "DEMO-CAST-PART-003",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-MACH-006",
+      "timestamp": "2026-01-15T09:05:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-006",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-WELD-006",
+      "timestamp": "2026-01-15T09:05:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-006",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-CAST-007",
+      "timestamp": "2026-01-15T09:06:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-CAST-PART-004",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-MACH-007",
+      "timestamp": "2026-01-15T09:06:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-007",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-WELD-007",
+      "timestamp": "2026-01-15T09:06:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-007",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-CAST-008",
+      "timestamp": "2026-01-15T09:07:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-2",
+      "part_id": "DEMO-CAST-PART-004",
+      "automatic_result": "Fail",
+      "reviewed_result": "Fail",
+      "defect_label": "Foreign material",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct reject"
+    },
+    {
+      "inspection_id": "DEMO-MACH-008",
+      "timestamp": "2026-01-15T09:07:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-008",
+      "automatic_result": "Fail",
+      "reviewed_result": "Fail",
+      "defect_label": "Missing hole",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct reject"
+    },
+    {
+      "inspection_id": "DEMO-WELD-008",
+      "timestamp": "2026-01-15T09:07:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-008",
+      "automatic_result": "Fail",
+      "reviewed_result": "Fail",
+      "defect_label": "Missing weld",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct reject"
+    },
+    {
+      "inspection_id": "DEMO-CAST-009",
+      "timestamp": "2026-01-15T09:08:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-CAST-PART-005",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-MACH-009",
+      "timestamp": "2026-01-15T09:08:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-009",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-WELD-009",
+      "timestamp": "2026-01-15T09:08:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-009",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-CAST-010",
+      "timestamp": "2026-01-15T09:09:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-2",
+      "part_id": "DEMO-CAST-PART-005",
+      "automatic_result": "Fail",
+      "reviewed_result": "Pass",
+      "defect_label": "Lighting variation",
+      "review_note": "Sample reviewer accepted the condition; lighting variation caused a simulated reject.",
+      "result_category": "False reject"
+    },
+    {
+      "inspection_id": "DEMO-MACH-010",
+      "timestamp": "2026-01-15T09:09:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-010",
+      "automatic_result": "Fail",
+      "reviewed_result": "Pass",
+      "defect_label": "Lighting variation",
+      "review_note": "Sample reviewer accepted the condition; lighting variation caused a simulated reject.",
+      "result_category": "False reject"
+    },
+    {
+      "inspection_id": "DEMO-WELD-010",
+      "timestamp": "2026-01-15T09:09:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-010",
+      "automatic_result": "Fail",
+      "reviewed_result": "Pass",
+      "defect_label": "Lighting variation",
+      "review_note": "Sample reviewer accepted the condition; lighting variation caused a simulated reject.",
+      "result_category": "False reject"
+    },
+    {
+      "inspection_id": "DEMO-CAST-011",
+      "timestamp": "2026-01-15T09:10:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-CAST-PART-006",
+      "automatic_result": "Fail",
+      "reviewed_result": "Fail",
+      "defect_label": "Foreign material",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct reject"
+    },
+    {
+      "inspection_id": "DEMO-MACH-011",
+      "timestamp": "2026-01-15T09:10:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-011",
+      "automatic_result": "Fail",
+      "reviewed_result": "Fail",
+      "defect_label": "Missing hole",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct reject"
+    },
+    {
+      "inspection_id": "DEMO-WELD-011",
+      "timestamp": "2026-01-15T09:10:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-011",
+      "automatic_result": "Fail",
+      "reviewed_result": "Fail",
+      "defect_label": "Missing weld",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct reject"
+    },
+    {
+      "inspection_id": "DEMO-CAST-012",
+      "timestamp": "2026-01-15T09:11:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-2",
+      "part_id": "DEMO-CAST-PART-006",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-MACH-012",
+      "timestamp": "2026-01-15T09:11:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-012",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-WELD-012",
+      "timestamp": "2026-01-15T09:11:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-012",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-CAST-013",
+      "timestamp": "2026-01-15T09:12:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-CAST-PART-007",
+      "automatic_result": "Fail",
+      "reviewed_result": "Fail",
+      "defect_label": "Retained material",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct reject"
+    },
+    {
+      "inspection_id": "DEMO-MACH-013",
+      "timestamp": "2026-01-15T09:12:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-013",
+      "automatic_result": "Fail",
+      "reviewed_result": "Fail",
+      "defect_label": "Burr at bore",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct reject"
+    },
+    {
+      "inspection_id": "DEMO-WELD-013",
+      "timestamp": "2026-01-15T09:12:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-013",
+      "automatic_result": "Fail",
+      "reviewed_result": "Fail",
+      "defect_label": "Weld discontinuity",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct reject"
+    },
+    {
+      "inspection_id": "DEMO-CAST-014",
+      "timestamp": "2026-01-15T09:13:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-2",
+      "part_id": "DEMO-CAST-PART-007",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-MACH-014",
+      "timestamp": "2026-01-15T09:13:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-014",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-WELD-014",
+      "timestamp": "2026-01-15T09:13:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-014",
+      "automatic_result": "Pass",
+      "reviewed_result": "Pass",
+      "defect_label": "None",
+      "review_note": "Automatic decision agrees with the fictional sample review.",
+      "result_category": "Correct pass"
+    },
+    {
+      "inspection_id": "DEMO-CAST-015",
+      "timestamp": "2026-01-15T09:14:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-CAST-PART-008",
+      "automatic_result": "Pass",
+      "reviewed_result": "",
+      "defect_label": "None",
+      "review_note": "Awaiting sample review.",
+      "result_category": "Unreviewed"
+    },
+    {
+      "inspection_id": "DEMO-MACH-015",
+      "timestamp": "2026-01-15T09:14:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-015",
+      "automatic_result": "Pass",
+      "reviewed_result": "",
+      "defect_label": "None",
+      "review_note": "Awaiting sample review.",
+      "result_category": "Unreviewed"
+    },
+    {
+      "inspection_id": "DEMO-WELD-015",
+      "timestamp": "2026-01-15T09:14:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-015",
+      "automatic_result": "Pass",
+      "reviewed_result": "",
+      "defect_label": "None",
+      "review_note": "Awaiting sample review.",
+      "result_category": "Unreviewed"
+    },
+    {
+      "inspection_id": "DEMO-CAST-016",
+      "timestamp": "2026-01-15T09:15:00Z",
+      "application": "Casting",
+      "station": "DEMO-CAST-01",
+      "camera": "CAM-2",
+      "part_id": "DEMO-CAST-PART-008",
+      "automatic_result": "Fail",
+      "reviewed_result": "",
+      "defect_label": "Retained material",
+      "review_note": "Awaiting sample review.",
+      "result_category": "Unreviewed"
+    },
+    {
+      "inspection_id": "DEMO-MACH-016",
+      "timestamp": "2026-01-15T09:15:00Z",
+      "application": "Machining",
+      "station": "DEMO-MACH-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-MACH-PART-016",
+      "automatic_result": "Fail",
+      "reviewed_result": "",
+      "defect_label": "Burr at bore",
+      "review_note": "Awaiting sample review.",
+      "result_category": "Unreviewed"
+    },
+    {
+      "inspection_id": "DEMO-WELD-016",
+      "timestamp": "2026-01-15T09:15:00Z",
+      "application": "Weld inspection",
+      "station": "DEMO-WELD-01",
+      "camera": "CAM-1",
+      "part_id": "DEMO-WELD-PART-016",
+      "automatic_result": "Fail",
+      "reviewed_result": "",
+      "defect_label": "Weld discontinuity",
+      "review_note": "Awaiting sample review.",
+      "result_category": "Unreviewed"
+    }
+  ]
+}

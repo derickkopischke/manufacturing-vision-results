@@ -1,0 +1,8 @@
+{"inserted": 48, "duplicates_skipped": 0}
+Decisions: 48 | Reviewed: 42
+Correct pass: 21
+Correct reject: 12
+False reject: 6
+False accept: 3
+Unreviewed: 6
+Open examples/viewer.html in your browser.
