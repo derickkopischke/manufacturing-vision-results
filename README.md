@@ -6,6 +6,8 @@ My manufacturing experience includes dual-camera MoldWatcher systems in casting 
 
 The project uses **fictional records, fictional reference reviews, and illustrated schematic frames**. It contains no employer records or camera captures. It does not perform image recognition or connect to a camera, vendor application, or PLC.
 
+**[Open the inspection results viewer on my portfolio](https://derick-kopischke.fitsky18.chatgpt.site/vision-demo.html)** — explore the saved sample results without downloading the project.
+
 ## Run the viewer
 
 Use **Python 3.12 or newer with SQLite support**. The project uses only Python's standard library, with no additional packages to install. It was tested with Python 3.12.
